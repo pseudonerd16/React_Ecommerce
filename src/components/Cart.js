@@ -40,6 +40,10 @@ export default function Cart(props) {
                     <div><strong>Total Price</strong></div>
                     <div>Rs.{totalPrice.toFixed(2)}</div>
                 </div>
+                <hr/>
+                <button className="checkout" onClick={() => alert('You checked out')}>
+                    Checkout
+                </button>
                 </>
             )}
         </div>
